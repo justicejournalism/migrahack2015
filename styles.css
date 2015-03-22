@@ -1,6 +1,17 @@
 body{
 	background-color: #700;
 }
+#key{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	color: #999;
+}
+h3{
+	color: #999;
+}
 header{
 	position: relative;
 	width:90%;
@@ -22,6 +33,13 @@ a.español{
 	left:72%;
 	color: #999;
 	font-size: 300%
+}
+
+a.about{
+	position: relative;
+	left: 10%;
+	color:#999;
+	font-size: 200%;
 }
 
 .container {
