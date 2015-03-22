@@ -1,6 +1,12 @@
 body{
 	background-color: #700;
 }
+header{
+	position: relative;
+	width:90%;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 #share-buttons img {
 	width: 5%;
@@ -8,6 +14,14 @@ body{
 	border: 0;
 	box-shadow: 0;
 	display: inline;
+}
+
+a.español{
+	position: absolute;
+	top:3%;
+	left:72%;
+	color: #999;
+	font-size: 300%
 }
 
 .container {
@@ -29,18 +43,31 @@ body{
 	left:5%;
 }
 
-#heartContainer {
+#subContainer {
     display:block;    
 	position: absolute;
 	top:24%;
 	left: 51%;
 	width: 30%;
-}
+	height: 100%}
 
 #heart{
+	position: absolute;
+	top:12%;
 	width:28%;
 }
 
-#heart:hover {
-	background-position: 0 -70px;
+#eye {
+	display: block;
+	position:absolute;
+	width:23.2%;
+	top:-3.5%;
+}
+
+#watch{
+	display: block;
+	position: absolute;
+	width: 26.5%;
+	top: 32%;
+	left: 32%;
 }

@@ -10,49 +10,55 @@
 		<link href="styles.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+		<header>
 		<!-- I got these buttons from simplesharebuttons.com -->
 		<div id="share-buttons">
  
 			<!-- Facebook -->
-			<a href="http://www.facebook.com/sharer.php?u=http://lowlydarkfuture.github.io/migrahack2015/" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+			<a href="http://www.facebook.com/sharer.php?u=http://lowlydarkfuture.github.io/migrahack2015/" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://lowlydarkfuture.github.io/migrahack2015/images/sharebuttons/facebook.png" alt="Facebook" /></a>
  
 			<!-- Twitter -->
-			<a href="http://twitter.com/share?url=http://lowlydarkfuture.github.io/migrahack2015/&text=Arizona Migrahack 2015&hashtags=instate4DACA" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+			<a href="http://twitter.com/share?url=http://lowlydarkfuture.github.io/migrahack2015/&text=Arizona Migrahack 2015&hashtags=instate4DACA" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://lowlydarkfuture.github.io/migrahack2015/images/sharebuttons/twitter.png" alt="Twitter" /></a>
  
 			<!-- Google+ -->
-			<a href="https://plus.google.com/share?url=http://lowlydarkfuture.github.io/migrahack2015/" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+			<a href="https://plus.google.com/share?url=http://lowlydarkfuture.github.io/migrahack2015/" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://lowlydarkfuture.github.io/migrahack2015/images/sharebuttons/google.png" alt="Google" /></a>
  
 			<!-- Reddit -->
-			<a href="http://reddit.com/submit?url=http://lowlydarkfuture.github.io/migrahack2015/&title=Arizona Migrahack" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://www.simplesharebuttons.com/images/somacro/reddit.png" alt="Reddit" /></a>
+			<a href="http://reddit.com/submit?url=http://lowlydarkfuture.github.io/migrahack2015/&title=Arizona Migrahack" target="http://lowlydarkfuture.github.io/migrahack2015/images/DACA_Infographic"><img src="http://lowlydarkfuture.github.io/migrahack2015/images/sharebuttons/reddit.png" alt="Reddit" /></a>
  
 			<!-- Email -->
-			<a href="mailto:?Subject=Simple Share Buttons&Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://lowlydarkfuture.github.io/migrahack2015/"><img src="http://www.simplesharebuttons.com/images/somacro/email.png" alt="Email" /></a>
+			<a href="mailto:?Subject=Simple Share Buttons&Body=I%20saw%20this%20and%20thought%20of%20you!%20 http://lowlydarkfuture.github.io/migrahack2015/"><img src="http://lowlydarkfuture.github.io/migrahack2015/images/sharebuttons/email.png" alt="Email" /></a>
  
 		</div>
-
+		<div>
+			<a class="español" href="http://lowlydarkfuture.github.io/migrahack2015/español.html">¡En español!</a>
+		</div>
+		</header>
 
 		<div class="container">
 			<img id="infographic" src="images/DACA_Infographic.jpg" alt="DACA infographic"/>
-
-			<div id="heartContainer">
+			<!--This rollover technique was sourced at http://helplogger.blogspot.com/2012/05/create-rollover-image-effect-change.html-->
+			<div id="subContainer">
 				<!--This does the exposed video access-->
 				<a class="html5lightbox" title="Korina Iribe Romo" data-group="story" data-thumbnail="images/thumbnails/Korina.jpg" href="videos/Korina_Iribe.mp4"><img id="heart" src="images/thumbnails/heart.jpg" onmouseover="this.src='images/thumbnails/heartBW.jpg'" onmouseout="this.src='images/thumbnails/heart.jpg'"alt="The stories"/></a>
+
+				<!--The following aren't directly accessable. they must be accessed via the previous video-->
+				<a class="html5lightbox" title="Sofia Benitez" data-group="story" data-thumbnail="images/thumbnails/Sofia.jpg" href="videos/Sofia_Benitez.mp4"></a>
+
+				<a class="html5lightbox" title="Dulce Matuz" data-group="story" data-thumbnail="images/thumbnails/Dulce.jpg" href="videos/Dulce_Matuz.mp4"></a>
+
+				<a class="html5lightbox" title="Julio Zuniga" data-group="story" data-thumbnail="images/thumbnails/Julio.jpg" href="videos/Julio_Zuniga.mp4"></a>
+
+				<a class="html5lightbox" title="Maria Belen Sisa" data-group="story" data-thumbnail="images/thumbnails/Maria.jpg" href="videos/Maria_Belen_Sisa.mp4"></a>
+
+				<a class="html5lightbox" title="Dulce Matuz" data-group="story" data-thumbnail="images/thumbnails/Guadalupe.jpg" href="videos/Guadalupe_Arreola.mp4"></a>
+				<!--This is the end of the video section-->
+			
+				<!--This is the insert of a picture on the site-->
+				<a href="images/caboose.jpg" data-group="time" class="html5lightbox" data-thumbnail="none" title="The background"><img id="watch" src="images/thumbnails/watch.jpg" onmouseover="this.src='images/thumbnails/watchBW.jpg'" onmouseout="this.src='images/thumbnails/watch.jpg'"alt="The history"/></a>
+				<a href="images/caboose.jpg" data-group="history" class="html5lightbox" data-thumbnail="none" title="The background"><img id="eye" src="images/thumbnails/eye.jpg" onmouseover="this.src='images/thumbnails/eyeBW.jpg'" onmouseout="this.src='images/thumbnails/eye.jpg'"alt="The history"/></a>
+				<a href="images/caboose.jpg" data-group="witness" class="html5lightbox" data-thumbnail="none" title="The background"><img id="pocket" src="images/thumbnails/pocket.jpg" onmouseover="this.src='images/thumbnails/pocketBW.jpg'" onmouseout="this.src='images/thumbnails/pocket.jpg'"alt="The history"/></a>
 			</div>
-
-			<!--The following aren't directly accessable. they must be accessed via the previous video-->
-			<a class="html5lightbox" title="Sofia Benitez" data-group="story" data-thumbnail="images/thumbnails/Sofia.jpg" href="videos/Sofia_Benitez.mp4"></a>
-
-			<a class="html5lightbox" title="Dulce Matuz" data-group="story" data-thumbnail="images/thumbnails/Dulce.jpg" href="videos/Dulce_Matuz.mp4"></a>
-
-			<a class="html5lightbox" title="Julio Zuniga" data-group="story" data-thumbnail="images/thumbnails/Julio.jpg" href="videos/Julio_Zuniga.mp4"></a>
-
-			<a class="html5lightbox" title="Maria Belen Sisa" data-group="story" data-thumbnail="images/thumbnails/Maria.jpg" href="videos/Maria_Belen_Sisa.mp4"></a>
-
-			<a class="html5lightbox" title="Dulce Matuz" data-group="story" data-thumbnail="images/thumbnails/Guadalupe.jpg" href="videos/Guadalupe_Arreola.mp4"></a>
-			<!--This is the end of the video section-->
-		
-			<!--This is the insert of a picture on the site-->
-			<a href="images/caboose.jpg" data-group="grads" class="html5lightbox" data-thumbnail="none" title="The background"><img id="grads" src="images/thumbnails/heart2.jpg" alt="The background"/></a>
 		</div>
 		<h1>DACA Beneficiaries by Top 5 States with Largest Undocumented Population</h1>
 		<iframe width=90% height=400px scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col3%3E%3E1+from+1GT8o2BG9pxoz5SGAMy8c3aZHrtHrZXkJ8wJi1N_I&amp;viz=MAP&amp;h=false&amp;lat=32.77159245254439&amp;lng=-90.12515812499998&amp;t=3&amp;z=4&amp;l=col3%3E%3E1&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>
