@@ -71,3 +71,13 @@ a.español{
 	top: 32%;
 	left: 32%;
 }
+
+#shoe{
+	position: absolute;
+	width: 67%;
+	top: 66.2%;
+	left: 4.5%;
+}
+h1{
+	color:#999;
+}
