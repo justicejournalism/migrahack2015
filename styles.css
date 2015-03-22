@@ -27,6 +27,10 @@ header{
 	display: inline;
 }
 
+#team{
+	width: 80%;
+}
+
 a.español{
 	position: absolute;
 	top:3%;
