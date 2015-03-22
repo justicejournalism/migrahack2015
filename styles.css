@@ -29,19 +29,18 @@ body{
 	left:5%;
 }
 
-#heart {
+#heartContainer {
     display:block;    
-	/*position: absolute;
-	top:30%;
+	position: absolute;
+	top:24%;
 	left: 51%;
-	width: 9%;
-	z-index: 0;*/
-	width: 100%;
-	height: 100%;
-	background: 'images/thumbnails/heart2.jpg' bottom;
-	text-indent: -99999px;
+	width: 30%;
+}
+
+#heart{
+	width:28%;
 }
 
 #heart:hover {
-	background-position: 0 0;
+	background-position: 0 -70px;
 }

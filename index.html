@@ -34,8 +34,10 @@
 		<div class="container">
 			<img id="infographic" src="images/DACA_Infographic.jpg" alt="DACA infographic"/>
 
-			<!--This does the exposed video access-->
-			<a class="html5lightbox" title="Korina Iribe Romo" data-group="story" data-thumbnail="images/thumbnails/Korina.jpg" href="videos/Korina_Iribe.mp4"><!--<img id="heart" src="images/thumbnails/heart.jpg" alt="The stories"/>--></a>
+			<div id="heartContainer">
+				<!--This does the exposed video access-->
+				<a class="html5lightbox" title="Korina Iribe Romo" data-group="story" data-thumbnail="images/thumbnails/Korina.jpg" href="videos/Korina_Iribe.mp4"><img id="heart" src="images/thumbnails/heart.jpg" onmouseover="this.src='images/thumbnails/heartBW.jpg'" onmouseout="this.src='images/thumbnails/heart.jpg'"alt="The stories"/></a>
+			</div>
 
 			<!--The following aren't directly accessable. they must be accessed via the previous video-->
 			<a class="html5lightbox" title="Sofia Benitez" data-group="story" data-thumbnail="images/thumbnails/Sofia.jpg" href="videos/Sofia_Benitez.mp4"></a>
