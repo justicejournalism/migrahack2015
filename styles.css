@@ -1,0 +1,47 @@
+body{
+	background-color: #700;
+}
+
+#share-buttons img {
+	width: 5%;
+	padding: .5%;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+}
+
+.container {
+	position: relative;
+}
+
+#infographic {
+	width:80%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1;
+}
+
+#grads{
+	width: 30%;
+	position:relative;
+	top:5%;
+	left:5%;
+}
+
+#heart {
+    display:block;    
+	/*position: absolute;
+	top:30%;
+	left: 51%;
+	width: 9%;
+	z-index: 0;*/
+	width: 100%;
+	height: 100%;
+	background: 'images/thumbnails/heart2.jpg' bottom;
+	text-indent: -99999px;
+}
+
+#heart:hover {
+	background-position: 0 0;
+}
